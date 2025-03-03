@@ -1,14 +1,13 @@
-
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp
+());
 }
 
-class MyApp extends
- StatelessWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
@@ -17,7 +16,8 @@ class MyApp extends
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.pink, // Fondo rosa para eAppBar
+          backgroundColor: Colors.
+pink,
           title: Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
             child: const Text('Dorle irene zuñiga rodriguez 22308051281113 num.52'),
@@ -30,8 +30,8 @@ class MyApp extends
             children: <Widget>[
               const Text(
                 'diseño',
-                style: TextStyle(fontSize: 
-24, fontWeight: FontWeight.bold),
+                style: TextStyle
+(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
               const Text(
@@ -44,15 +44,14 @@ class MyApp extends
                 children: <Widget>[
                   // Letra A con borde izquierdo
                   Container(
-                    padding: const EdgeInsets.only(left: 16), // Padding solo a la izquierda
+                    padding: const EdgeInsets.only(left: 16),
                     decoration: BoxDecoration(
                       border: Border(
-                                 top: BorderSide(color: Colors.blue[300]!, width: 2),
-
-                        left: BorderSide(color: Colors.blue[300]!, width: 2),
+                        top: BorderSide(color: Colors.blue[300]!, width: 3),
+                        left: BorderSide(color: Colors.blue[300]!, width: 3),
                       ),
                     ),
-                    child: const Text('A', style: TextStyle(fontSize: 18)),
+                    child: const Text('A', style: TextStyle(fontSize: 40)),
                   ),
                   // Divider vertical
                   const VerticalDivider(
@@ -60,17 +59,16 @@ class MyApp extends
                     thickness: 2,
                     width: 20,
                   ),
-                  // Letra B con borde izquierdo
+                  // Letra B con borde izquierdo y derecho
                   Container(
-                    padding: const EdgeInsets.only(left: 16), // Padding solo a la izquierda
+                    padding: const EdgeInsets.only(left: 22),
                     decoration: BoxDecoration(
                       border: Border(
-                        top: BorderSide(color: Colors.blue[300]!, width: 2),
-
-                        left: BorderSide(color: Colors.blue[300]!, width: 2),
+                        right: BorderSide(color: Colors.blue[300]!, width: 3),
+                        left: BorderSide(color: Colors.blue[300]!, width: 3),
                       ),
                     ),
-                    child: const Text('B', style: TextStyle(fontSize: 18)),
+                    child: const Text('B', style: TextStyle(fontSize: 40)),
                   ),
                   // Divider vertical
                   const VerticalDivider(
@@ -78,16 +76,16 @@ class MyApp extends
                     thickness: 2,
                     width: 20,
                   ),
-                  // Letra C con borde izquierdo
+                  // Letra C con borde superior e inferior
                   Container(
-                    padding: const EdgeInsets.only(left: 16), // Padding solo a la izquierda
+                    padding: const EdgeInsets.only(bottom: 6),
                     decoration: BoxDecoration(
                       border: Border(
-                        top: BorderSide(color: Colors.blue[300]!, width: 2),
-                        left: BorderSide(color: Colors.blue[300]!, width: 2),
+                        top: BorderSide(color: Colors.blue[300]!, width: 3),
+                        bottom: BorderSide(color: Colors.blue[300]!, width: 3),
                       ),
                     ),
-                    child: const Text('C', style: TextStyle(fontSize: 18)),
+                    child: const Text('C', style: TextStyle(fontSize: 40)),
                   ),
                 ],
               ),
