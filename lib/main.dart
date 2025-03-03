@@ -20,7 +20,7 @@ class MyApp extends
           backgroundColor: Colors.pink, // Fondo rosa para eAppBar
           title: Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-            child: const Text('Diseño Flutter'),
+            child: const Text('Dorle irene zuñiga rodriguez 22308051281113 num.52'),
           ),
         ),
         body: Padding(
@@ -29,7 +29,7 @@ class MyApp extends
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               const Text(
-                'Dorle irene zuñiga rodriguez 22308051281113',
+                'diseño',
                 style: TextStyle(fontSize: 
 24, fontWeight: FontWeight.bold),
               ),
